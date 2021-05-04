@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const ytdl = require("ytdl-core");
-const ffmpeg = require("ffmpeg-static");
+const ffmpeg = require("ffmpeg");
 
 const client = new Discord.Client();
 
