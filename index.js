@@ -130,4 +130,4 @@ function play(guild, song) {
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
 }
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
