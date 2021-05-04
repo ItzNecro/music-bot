@@ -6,6 +6,8 @@ const client = new Discord.Client();
 
 const queue = new Map();
 
+const prefix = "+";
+
 client.once("ready", () => {
   console.log("Ready!");
 });
